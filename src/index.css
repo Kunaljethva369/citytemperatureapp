@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+input:focus {
+    outline: none;
+}
+
+@keyframes updown {
+    0% {
+        transform: translateX(6px);
+    }
+    100% {
+        transform: translateX(-6px);
+    }
+}
+
+.cel, .p {
+    display: flex;
+    justify-content: center;
+}
+
+.p {
+    margin-top: 4rem;
+    font-size: 1.4rem;
+    color: white;
+}
+
+.c {
+    margin-left: 0.2rem;
+}
