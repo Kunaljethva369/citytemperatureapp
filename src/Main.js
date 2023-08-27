@@ -51,7 +51,6 @@ function Main() {
 }
 
 const Mains = styled.div`
-    background-color: rgba(208, 126, 47, 1);
     height:400px;
     width:320px;
     border-radius:20px;
