@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 h1 {
@@ -13,16 +14,27 @@ input:focus {
     outline: none;
 }
 
+#root {
+    background: linear-gradient(10deg, #ffffff -5%, #09795B 1%, #00d4ff);
+    min-height: 100vh;
+    width: 100%;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    color: white;
+}
+
 @keyframes updown {
     0% {
         transform: translateX(6px);
     }
+
     100% {
         transform: translateX(-6px);
     }
 }
 
-.cel, .p {
+.cel,
+.p {
     display: flex;
     justify-content: center;
 }
